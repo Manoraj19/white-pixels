@@ -1,0 +1,12 @@
+node_modules/
+*.css.map
+*.js.map
+*.log
+*.tmp
+/build/
+/dist/
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
