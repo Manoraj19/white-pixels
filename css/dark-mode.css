@@ -1,0 +1,114 @@
+body.dark-mode {
+    --primary: #06A3DA;
+    --secondary: #34AD54;
+    --light: #091E3E;
+    --dark: #EEF9FF;
+    background-color: #091E3E;
+    color: #EEF9FF;
+}
+
+body.dark-mode .bg-white {
+    background-color: #091E3E !important;
+}
+
+body.dark-mode .bg-light {
+    background-color: #1a2c4f !important;
+}
+
+body.dark-mode .text-dark {
+    color: #EEF9FF !important;
+}
+
+body.dark-mode .text-primary {
+    color: #06A3DA !important;
+}
+
+body.dark-mode .navbar-dark .navbar-nav .nav-link {
+    color: #EEF9FF;
+}
+
+body.dark-mode .sticky-top.navbar-dark {
+    background: #091E3E;
+}
+
+body.dark-mode .sticky-top.navbar-dark .navbar-nav .nav-link {
+    color: #EEF9FF;
+}
+
+body.dark-mode .navbar-dark .navbar-brand h1 {
+    color: #EEF9FF;
+}
+
+body.dark-mode .service-item {
+    background-color: #1a2c4f !important;
+}
+
+body.dark-mode .testimonial-item {
+    background: #1a2c4f !important;
+}
+
+body.dark-mode .team-item {
+    background: #1a2c4f !important;
+}
+
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
+    color: #EEF9FF;
+}
+
+body.dark-mode .section-title::before {
+    background: var(--primary);
+}
+
+body.dark-mode .section-title::after {
+    background: #091E3E;
+}
+
+body.dark-mode .footer .btn.btn-primary {
+    color: #fff;
+}
+
+body.dark-mode .footer .btn.btn-dark {
+    color: #fff;
+    background-color: #1a2c4f;
+    border-color: #1a2c4f;
+}
+
+body.dark-mode .form-control {
+    background-color: #1a2c4f;
+    border: 1px solid #3a4c6f;
+    color: #EEF9FF;
+}
+
+body.dark-mode .form-control::placeholder {
+    color: #EEF9FF;
+}
+
+body.dark-mode .back-to-top {
+    background-color: var(--primary);
+}
+
+body.dark-mode .bg-primary {
+    background-color: #06A3DA !important;
+}
+
+body.dark-mode .text-primary {
+    color: #06A3DA !important;
+}
+
+body.dark-mode .btn-primary {
+    background-color: #06A3DA;
+    border-color: #06A3DA;
+}
+
+body.dark-mode .navbar-toggler {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+body.dark-mode .fa-moon {
+    color: var(--primary) !important;
+}
+
+body.dark-mode .fa-sun {
+    color: #fff !important;
+}
